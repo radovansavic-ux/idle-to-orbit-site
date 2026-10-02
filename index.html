@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Idle to Orbit</title>
+<meta name="description" content="Idle to Orbit support and privacy information.">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#07111f;
+  --card:#0d1b2d;
+  --card2:#11233a;
+  --text:#eef6ff;
+  --muted:#9bb1c8;
+  --cyan:#5ee7ff;
+  --orange:#ff9b54;
+  --line:#203650;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:
+    radial-gradient(circle at 15% -10%, rgba(94,231,255,.16), transparent 30%),
+    radial-gradient(circle at 90% 10%, rgba(255,155,84,.12), transparent 26%),
+    var(--bg);
+  color:var(--text);
+  line-height:1.62;
+}
+.wrap{max-width:880px;margin:0 auto;padding:48px 22px 80px}
+.brand{font-weight:800;letter-spacing:.02em;color:var(--cyan);font-size:1.05rem}
+h1{font-size:clamp(2.2rem,6vw,4.2rem);line-height:1.02;margin:.35rem 0 1rem}
+h2{margin-top:2.2rem;font-size:1.35rem}
+p,li{color:#d7e3ef}
+small,.muted{color:var(--muted)}
+.card{
+  background:linear-gradient(180deg,rgba(17,35,58,.94),rgba(13,27,45,.94));
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:24px;
+  margin:18px 0;
+  box-shadow:0 12px 40px rgba(0,0,0,.20);
+}
+a{color:var(--cyan)}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0 30px}
+nav a{
+  text-decoration:none;
+  background:#10263e;
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:8px 13px;
+}
+.tag{display:inline-block;color:#07111f;background:var(--orange);font-weight:700;border-radius:999px;padding:5px 10px}
+hr{border:0;border-top:1px solid var(--line);margin:34px 0}
+code{background:#071725;border:1px solid var(--line);padding:2px 6px;border-radius:6px}
+footer{margin-top:48px;color:var(--muted);font-size:.9rem}
+ul{padding-left:1.25rem}
+.notice{border-left:4px solid var(--cyan);padding-left:16px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand">IDLE TO ORBIT</div>
+  <h1>Build. Automate. Reach orbit.</h1>
+  <p class="muted">Official support and privacy information.</p>
+
+  <section class="card">
+    <h2>Support</h2>
+    <p>Help with gameplay, ads, privacy choices, and purchases.</p>
+    <p><a href="support.html">Open Support →</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Privacy Policy</h2>
+    <p>Learn how Idle to Orbit and its third-party services handle data.</p>
+    <p><a href="privacy.html">Open Privacy Policy →</a></p>
+  </section>
+
+  <footer>Idle to Orbit</footer>
+</main>
+</body>
+</html>
